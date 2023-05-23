@@ -20,7 +20,6 @@
 .classpath
 .project
 .settings/
-.vscode/*
 
 # Flutter repo-specific
 /bin/cache/
@@ -64,6 +63,7 @@ unlinked_spec.ds
 .gradle/
 **/android/captures/
 **/android/gradlew
+temp_auto_push.bat
 **/android/gradlew.bat
 **/android/local.properties
 **/android/**/GeneratedPluginRegistrant.java
@@ -130,4 +130,5 @@ app.*.symbols
 !**/ios/**/default.perspectivev3
 !/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
 !/dev/ci/**/Gemfile.lock
-!.vscode/settings.json
+.gitignore
+branch_structure.json
